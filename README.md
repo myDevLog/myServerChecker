@@ -9,10 +9,22 @@ If the connection fails, the Server is considered down, which colors the LED red
 If the connection is successful, the Server is considered running, which colors the LED green.
 
 Parts used:
-- 1x Esp8266 01s
+- 1x Esp8266 01
 - 1x Arduino Power Modules (As energysupply)
 - 1x RGB-LED
 - 2x 220 Ohm Resistors
 - 1x Battery-Holder
+- 1x USB to ESP8266 01 Serial Wireless WiFi Module (for programming the ESP-Device)
 - Batteries
 - Wires
+
+
+
+Programming the ESP 8266 01:
+1. Stick the ESP into the USB-to-ESP Writer (with the ESP facing the USB-Plug)
+2. Make a connection on the USB-to-ESP Writer between GND and the GPIO-Pin
+3. Plug the USB-to-ESP Writer in
+4. Wait about 3 Seconds
+5. Disconnect the GND and the GPIO-Pin
+6. Select a Port
+7. Upload the Sketch
