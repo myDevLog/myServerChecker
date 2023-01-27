@@ -18,7 +18,11 @@ Parts used:
 - Batteries
 - Wires
 
+<br>
 
+**! Fill out the mqttSetup.h as well as the wifiSetup.h file with the appropriate Data !**
+
+<br>
 
 Programming the ESP 8266 01:
 1. Stick the ESP into the USB-to-ESP Writer (with the ESP facing the USB-Plug)
