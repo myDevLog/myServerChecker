@@ -22,7 +22,7 @@ If the connection is successful, the Server is considered running, which colors 
 - Batteries
 - Wires
 
-**!** Fill out the [mqttSetup.h](../ServerChecker/mqttSetup.h) as well as the [wifiSetup.h](../ServerChecker/wifiSetup.h) file with the appropriate Data **!**
+**!** Fill out the [mqttSetup.h](ServerChecker/mqttSetup.h) as well as the [wifiSetup.h](ServerChecker/wifiSetup.h) file with the appropriate Data **!**
 
 <br>
 
