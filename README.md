@@ -12,6 +12,25 @@ If the connection is successful, the Server is considered running, which colors 
 
 <br>
 
+## Libraries used:
+From the Arduino **Boards**-Manager:
+
+For the needed Library to show up you need to have the following URL's under "File>Preferences>Additional Boards Manager URLs":
+```
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+https://dl.espressif.com/dl/package_esp32_index.json
+```
+
+- "esp8266" by ESP8266 Community
+
+<br>
+
+From the Arduino **Library**-Manager:
+- "PubSubClient" by Nick O'Leary
+- "WiFi101" by Arduino
+
+<br>
+
 ## Parts used:
 - 1x Esp8266 01
 - 1x Arduino Power Modules (As energysupply)
